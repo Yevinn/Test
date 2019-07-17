@@ -1,9 +1,15 @@
 
+body {
+   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    text-rendering: optimizeLegibility important;
+    word-spacing: -1px;
+    -webkit-font-smoothing: auto;
+}
 .supports_custom_scrollbar #msg_input.texty_legacy .ql-editor{
-   font-family: 'Muli', sans-serif !important;
+   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 .p-threads_footer__input--legacy .p-message_input_field .ql-editor {
-  font-family: 'Muli', sans-serif !important;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 div.c-message.c-message--light.c-message--hover {
     color: grey !important;
